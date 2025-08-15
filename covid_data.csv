@@ -1,0 +1,14 @@
+covid_df = pd.read_csv('covid_data.csv')
+
+# Make sure column names are correct
+print(covid_df.columns)
+
+# Drop missing rows and select relevant columns
+covid_df = covid_df[['Country', 'TotalCases', 'TotalDeaths', 'TotalRecovered']].dropna()
+
+# Create top10
+top10 = covid_df.sort_values(by='TotalCases', ascending=False).head(10)
+
+# Melt
+top_melt = pd.melt(top10, id_vars='Country', value_vars=['TotalCases', 'TotalDeaths', 'TotalRecovered'],
+                   var_name='Metric', value_name='Count')
