@@ -16,5 +16,5 @@ API integration is the process of connecting different software systems or appli
 
 output
 
-
+<img width="1364" height="767" alt="Image" src="https://github.com/user-attachments/assets/9326579e-2a7a-4f3b-b099-091ab8580e7c" />
 
