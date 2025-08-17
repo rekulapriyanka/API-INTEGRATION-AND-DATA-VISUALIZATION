@@ -12,7 +12,15 @@ BATCH DURATION: JULY 25TH, 2025 TO AUGUST 25TH,2025
 
 MENTOR NAME:  NEELA SANTOSH
 
-API integration is the process of connecting different software systems or applications through their respective Application Programming Interfaces (APIs) to enable seamless data exchange and communication. APIs act as a bridge between two systems, allowing them to send and receive data in a structured format, typically JSON or XML, over protocols like HTTP/HTTPS. API integration is crucial in modern applications, as it enables functionalities such as third-party payment processing, social media logins, location services, data synchronization, and more. Tools such as Postman are widely used for testing and managing API requests and responses, while Swagger (or OpenAPI) is used for designing, documenting, and testing APIs in a standardized way. For developers, libraries like Axios, Fetch API (in JavaScript), and Retrofit (in Java or Android development) provide methods for making API calls from client-side or mobile applications. Backend developers often use tools like cURL or requests in Python for server-side API interactions.Data visualization, on the other hand, is the practice of representing data graphically using charts, graphs, dashboards, and other visual elements to make complex datasets easier to understand and interpret. It helps users identify patterns, trends, and insights quickly, which is especially valuable in business intelligence, scientific analysis, and decision-making processes. Visualization tools range from simple to highly advanced platforms. Tableau and Microsoft Power BI are two of the most popular business intelligence tools used to create interactive and shareable dashboards connected to real-time data sources. Google Looker Studio (formerly Data Studio) is another free and user-friendly tool for creating data visualizations, particularly for users integrated with Google services.
+Use python language ,The data is fetched using the requests library in Python from the disease.sh REST API. Data is retrieved from the public COVID-19 API provided by disease.sh.The endpoint /countries returns a list of all countries with their respective total cases, deaths, recovered, and other statistics in JSON format. The data is parsed, converted to a DataFrame, sorted by cases, and the top 10 entries are selected. Create Visualisations using MATPLOTLIB  library.
+
+API integration and data visualization are vital for real-time data analysis. In the case of the COVID-19 pandemic, data visualization of country-wise cases can help governments, researchers, and the public track the spread of the virus. This project integrates a COVID-19 API to fetch live data, filters the top 10 affected countries, and visualizes the data using Python libraries like Matplotlib, Pandas, and Requests.
+
+Requirements :install necessary libraries
+
+pip install request pandas matplotlib seaborn
+
+The development tool I used Vd code it can test and write the code
 
 output
 
