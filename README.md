@@ -10,7 +10,7 @@ DOMAIN NAME: PYTHON PROGRAMMING
 
 BATCH DURATION: JULY 25TH, 2025 TO AUGUST 25TH,2025
 
-MENTOR NAME:  NEELA SANTOSH
+MENTOR NAME:  NEELA SANTOSH KUMAR
 
 Use python language ,The data is fetched using the requests library in Python from the disease.sh REST API. Data is retrieved from the public COVID-19 API provided by disease.sh.The endpoint /countries returns a list of all countries with their respective total cases, deaths, recovered, and other statistics in JSON format. The data is parsed, converted to a DataFrame, sorted by cases, and the top 10 entries are selected. Create Visualisations using MATPLOTLIB  library.
 
